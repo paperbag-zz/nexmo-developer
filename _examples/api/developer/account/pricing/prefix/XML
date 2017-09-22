@@ -1,0 +1,581 @@
+<outbound-pricing>
+  <prices>
+    <countryDisplayName>Canada</countryDisplayName>
+    <country>CA</country>
+    <name>Canada</name>
+    <prefix>1</prefix>
+    <mt>0.00570000</mt>
+    <networks>
+      <network>
+        <code>302655</code>
+        <name>MTS Communications Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302710</code>
+        <name>Globalstar Canada Company</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302940</code>
+        <name>Wightman Telecom</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>CA-UNKNOWN</code>
+        <name>Canada Unknown</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302702</code>
+        <name>BELL ALIANT REGIONAL Communications LP</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302270</code>
+        <name>BRAGG Communications INC.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302490</code>
+        <name>Freedom Mobile Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302880</code>
+        <name>Telus Communications / Bell Cellular, Inc. / Aliant Telecom</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302340</code>
+        <name>Execulink Telecom</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302680</code>
+        <name>Sask Tel</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302510</code>
+        <name>Videotron G.P.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302620</code>
+        <name>Ice Wireless Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302530</code>
+        <name>Keewaytinook Okimakanak</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>302320</code>
+        <name>Rogers Communications Canada Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+    </networks>
+  </prices>
+  <prices>
+    <countryDisplayName>United States</countryDisplayName>
+    <country>US</country>
+    <name>United States</name>
+    <prefix>1</prefix>
+    <mt>0.00570000</mt>
+    <networks>
+      <network>
+        <code>311090</code>
+        <name>Flat Wireless, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311370</code>
+        <name>NACS Wireless, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311650</code>
+        <name>United Wireless Communications, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310320</code>
+        <name>Smith Bagley Inc. dba Cellular One of Ne Arizona</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310035</code>
+        <name>ETEX Communications L.P. dba ETEX Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310311</code>
+        <name>Farmers Mutual Telephone Company, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310710</code>
+        <name>ASTAC Wireless LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311887</code>
+        <name>XO California, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311380</code>
+        <name>NEW DIMENSION WIRELESS LTD.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311140</code>
+        <name>MBO Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310690</code>
+        <name>Limitless Mobile, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311020</code>
+        <name>Chariton Valley Cellular</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310570</code>
+        <name>MTPCS, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-ONVOY</code>
+        <name>Onvoy, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310450</code>
+        <name>N.E. Colorado Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312630</code>
+        <name>NETGENUITY INC.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311420</code>
+        <name>Northwest Missouri Cellular Limited Partnership</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311410</code>
+        <name>Iowa RSA 2 Limited Partnership dba Chat Mobility</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310840</code>
+        <name>Telecom North America Mobile Inc</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311930</code>
+        <name>Syringa Wireless, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311810</code>
+        <name>Bluegrass Wireless LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>31100</code>
+        <name>Mid-Tex Cellular Ltd.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-SKYPE</code>
+        <name>Skype Communications</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-INFOTELECOM</code>
+        <name>INFOTELECOM, LLC - NC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>316883</code>
+        <name>Virginia PCS Alliance, L.c.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312040</code>
+        <name>Custer Telephone Cooperative, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310260</code>
+        <name>T-mobile USA, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310020</code>
+        <name>Union Telephone Company</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311230</code>
+        <name>Cellular South, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-LEVEL3</code>
+        <name>Level 3 Communications</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311990</code>
+        <name>VTEL WIRELESS, INC.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>316885</code>
+        <name>Sagebrush Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310023</code>
+        <name>Voicestream GSM I, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310540</code>
+        <name>Oklahoma Western Telephone Company</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>316884</code>
+        <name>Kentucky RSA 4 Cellular General Partnership</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311740</code>
+        <name>TelAlaska Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-FULLNET</code>
+        <name>Fullnet Advanced Communications, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-VONAGE</code>
+        <name>Vonage Network Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-4DVISION</code>
+        <name>4Dvision, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311080</code>
+        <name>Pine Telephone Co.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>316011</code>
+        <name>Southern Communications Services</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311240</code>
+        <name>Cordova Wireless Communications, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312210</code>
+        <name>ASPENTA, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-BANDWIDTH</code>
+        <name>Bandwidth.com CLEC, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311640</code>
+        <name>Standing Rock Telecommunications, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310300</code>
+        <name>Smart Call, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310940</code>
+        <name>Poka Lambro PCS, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311910</code>
+        <name>SI WIRELESS, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311290</code>
+        <name>Pinpoint Wireless, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312380</code>
+        <name>Copper Valley Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311050</code>
+        <name>Wilkes Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-BROADVOX</code>
+        <name>Broadvox-CLEC, LLC - NJ</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311690</code>
+        <name>Telebeeper of New Mexico</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-YMAX</code>
+        <name>YMAX Communications Corp. - NJ</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310120</code>
+        <name>SPRINT Spectrum L.P.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311330</code>
+        <name>Michigan Wireless, LLC dba Bug Tussel Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310880</code>
+        <name>Advantage Cellular Systems, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310760</code>
+        <name>Panhandle Telecommunications Systems, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310750</code>
+        <name>East Kentucky Netwrk, LLC dba Appalachian Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-GOOGLE</code>
+        <name>Google</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310090</code>
+        <name>AT&amp;T Mobility</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312270</code>
+        <name>Cellular Network Partnership</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>312030</code>
+        <name>Cross Wireless, L.L.C.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-TCG</code>
+        <name>TCG Midsouth, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311580</code>
+        <name>United States Cellular Corp. - Maine</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310130</code>
+        <name>Carolina West Wireless, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311340</code>
+        <name>Illinois Valley Cellular RSA 2-I Partnership</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310011</code>
+        <name>Northstar Technology, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310770</code>
+        <name>Iowa Wireless Services, Lp</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311100</code>
+        <name>Nex-Tech Wireless, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>316995</code>
+        <name>Coral Wireless, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311860</code>
+        <name>Uintah Basin Electronic Telecommunications</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311730</code>
+        <name>Proximiti Mobility, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310004</code>
+        <name>Verizon Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311610</code>
+        <name>North Dakota Network Co dba SRT Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-CBC</code>
+        <name>CBC Broadband Holdings, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-MILLICORP</code>
+        <name>Millicorp</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310060</code>
+        <name>New Cell, Inc. dba CeLLCom</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311030</code>
+        <name>Indigo Wireless, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310580</code>
+        <name>Inland Cellular</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311670</code>
+        <name>Pine Belt Cellular, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310340</code>
+        <name>Westlink Communications, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311430</code>
+        <name>RSA 1 Limited Partnership dba Chat Mobility</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311310</code>
+        <name>New Mexico RSA 6-III Partnership dba Leaco Rural</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310970</code>
+        <name>Globalstar USA, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310610</code>
+        <name>Epic Touch Co.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VOIP</code>
+        <name>United States of America VoIP</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-PEERLESS</code>
+        <name>Peerless Network of New Jersey, LLC - NJ</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311040</code>
+        <name>Commnet Wireless Subco, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310990</code>
+        <name>Worldcall Interconnect Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-TOLL-FREE</code>
+        <name>United States Toll Free</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310860</code>
+        <name>Five Star Wireless</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>310740</code>
+        <name>Tracy Corporation Ii</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-NETWORK-BILLING-SYSTEMS</code>
+        <name>Network Billing Systems, LC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-TRANSBEAM</code>
+        <name>Transbeam, Inc.</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>311710</code>
+        <name>NORTHEAST WIRELESS NETWORKS, LLC</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+      <network>
+        <code>US-VIRTUAL-TELIAX</code>
+        <name>Teliax Colorado</name>
+        <mtPrice>0.00570000</mtPrice>
+      </network>
+    </networks>
+  </prices>
+  <prices>
+    <countryDisplayName>United States Minor Outlying Islands</countryDisplayName>
+    <country>UM</country>
+    <name>United States Minor Outlying Islands</name>
+    <prefix>1</prefix>
+  </prices>
+</outbound-pricing>

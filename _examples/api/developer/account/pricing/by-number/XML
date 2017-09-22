@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<outbound-pricing>
+  <network>12345</network>
+  <phone>447900123123</phone>
+  <country-code>GB</country-code>
+  <price>0.2400000</price>
+</outbound-pricing>
