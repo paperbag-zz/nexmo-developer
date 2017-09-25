@@ -150,8 +150,7 @@ tabs:
     to_line: 20
 ```
 
-The responses are quite lengthy. Full responses are viewable on GitHub. <!-- TODO: add link -->
-
+The responses are quite lengthy. Full responses are viewable on GitHub: [JSON](https://github.com/Nexmo/nexmo-developer/blob/master/_examples/api/developer/account/pricing/full-pricing/JSON), [XML](https://github.com/Nexmo/nexmo-developer/blob/master/_examples/api/developer/account/pricing/full-pricing/XML).
 
 ##### Keys and Values
 
