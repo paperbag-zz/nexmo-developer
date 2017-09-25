@@ -10,7 +10,7 @@ api: Developer API
 
 ### Pricing by country
 
-Retrieve our outbound pricing for a given country
+Retrieve outbound pricing for a given country.
 
 #### Request
 
@@ -20,7 +20,7 @@ Retrieve our outbound pricing for a given country
 
 ##### Parameters
 
-The following shows the parameters you use in the request:
+The following shows the parameters used in the request:
 
 Parameter | Description | Required
 -- | -- | --
@@ -31,7 +31,7 @@ Parameter | Description | Required
 
 #### Response
 
-The following shows example Responses in JSON or XML:
+The following shows example responses in JSON or XML:
 
 ```tabbed_examples
 source: _examples/api/developer/account/pricing/per-country-pricing/
@@ -64,7 +64,7 @@ Retrieve our outbound pricing for all countries.
 
 ##### Parameters
 
-The following shows the parameters you use in the request:
+The following shows the parameters used in the request:
 
 Parameter | Description | Required
 -- | -- | --
@@ -74,7 +74,7 @@ Parameter | Description | Required
 
 #### Response
 
-The following shows example Responses in JSON or XML:
+The following shows example responses in JSON or XML:
 
 ```tabbed_examples
 tabs:
@@ -125,7 +125,7 @@ In most cases, a number prefix will only be used by one country, but exceptions 
 
 ##### Parameters
 
-The following shows the parameters you use in the request:
+The following shows the parameters used in the request:
 
 Parameter | Description | Required
 -- | -- | --
@@ -136,7 +136,7 @@ Parameter | Description | Required
 
 #### Response
 
-The following shows example Responses in JSON or XML:
+The following shows example responses in JSON or XML:
 
 ```tabbed_examples
 tabs:
@@ -216,7 +216,7 @@ tabs:
 
 ### Network
 
-The following data is common in a number of the above responses.
+The following data about individual networks is common in a number of the above responses.
 
 Key | Value
 -- | --
@@ -227,4 +227,4 @@ Key | Value
 `mcc` | The [Mobile Country Code](https://en.wikipedia.org/wiki/Mobile_country_code) of the operator.
 `mnc` | The Mobile Network Code of the operator.
 `networkCode` | The Mobile Country Code and Mobile Network Code combined to give a unique reference for the operator.
-`networkName` | The company/organisational name of the operator.
+`networkName` | The company/organisation name of the operator.
