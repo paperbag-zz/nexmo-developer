@@ -54,7 +54,7 @@ The record action is asynchronous. Recording starts when the record action is ex
 
 For information about the workflow to follow, see [Recordings](/voice/guides/record-calls-and-conversations).
 
-You use the following options to control a `record` action:
+You can use the following options to control a `record` action:
 
 Option | Description | Required
  -- | -- | --
@@ -97,13 +97,13 @@ You can use the `conversation` action to create standard or moderated Conversati
 
 > **Note**: you can invite up to 50 people to your Conversation.
 
-The following NCCO examples show how to configure different types of Conversation. You use the [*answer_url* webhook GET request parameters](/voice/guides/ncco#controlling) to ensure you deliver one NCCO to participants and another to the moderator.
+The following NCCO examples show how to configure different types of Conversation. You can use the [*answer_url* webhook GET request parameters](/voice/guides/ncco#controlling) to ensure you deliver one NCCO to participants and another to the moderator.
 
 ```tabbed_content
 source: '/_examples/voice/guides/ncco-reference/conversation'
 ```
 
-You use the following options to control a *conversation* action:
+You can use the following options to control a *conversation* action:
 
 Option | Description | Required
 -- | -- | --
@@ -122,7 +122,7 @@ You can use the `connect` action to connect a call to endpoints such as phone nu
 
 This action is synchronous, after a *connect* the next action in the NCCO stack is processed. A connect action ends when the endpoint you are calling is busy or unavailable. You ring endpoints sequentially by nesting connect actions.
 
-You use the following options to control a `connect` action:
+You can use the following options to control a `connect` action:
 
 Option | Description | Required
 -- | -- | --
@@ -283,7 +283,7 @@ The following NCCO examples shows how to send a synthesized speech message to a 
 source: '/_examples/voice/guides/ncco-reference/talk'
 ```
 
-You use the following options to control a *talk* action:
+You can use the following options to control a *talk* action:
 
 <table>
 <thead>
@@ -370,13 +370,13 @@ The following NCCO example shows how to send an audio stream to a Conversation o
 source: '/_examples/voice/guides/ncco-reference/stream'
 ```
 
-You use the following options to control a *stream* action:
+You can use the following options to control a *stream* action:
 
 Option | Description | Required
 -- | -- | --
 `streamUrl` | An array containing a single URL to an mp3 or wav (16-bit) audio file to stream to the Call or Conversation. | Yes
 `level` |  Set the audio level of the stream in the range -1 >=level<=1 with a precision of 0.1. The default value is *0*. | No
-`bargeIn` | Set to *true* so this action is terminated when the user presses a button on the keypad. Use this feature to enable users to choose an option without having to listen to the whole message in your [Interactive Voice Response (IVR](/voice/guides/interactive-voice-response) ). If you set `bargeIn` to `true` the next action in the NCCO stack **must** be an `input` action. The default value is `false`. | No
+`bargeIn` | Set to *true* so this action is terminated when the user presses a button on the keypad. Use this feature to enable users to choose an option without having to listen to the whole message in your [Interactive Voice Response (IVR](/voice/guides/interactive-voice-response) ). If you set `bargeIn` to `true` on one more Stream actions then the next action in the NCCO stack **must** be an `input` action. The default value is `false`. | No
 `loop` | The number of times `audio` is repeated before the Call is closed. The default value is `1`. Set to `0` to loop infinitely. | No
 
 The audio stream referred to should be a file in MP3 or WAV format. If you have issues with the file playing, please encode it to the following technical specification:
@@ -400,7 +400,7 @@ WAV:
 
 ## `input`
 
-You use the `input` action to collect digits input by the person you are calling. This action is synchronous, Nexmo processes the input and forwards it in the [parameters](#input_return_parameters) sent to the `eventURL` webhook endpoint you configure in your request. Your webhook endpoint should return another NCCO that replaces the existing NCCO and controls the Call based on the user input. You use this functionality to create an Interactive Voice Response (IVR). For example, if your user presses *4*, you return a [connect](#connect) NCCO that forwards the call to your sales department.
+You can use the `input` action to collect digits input by the person you are calling. This action is synchronous, Nexmo processes the input and forwards it in the [parameters](#input_return_parameters) sent to the `eventURL` webhook endpoint you configure in your request. Your webhook endpoint should return another NCCO that replaces the existing NCCO and controls the Call based on the user input. You could use this functionality to create an Interactive Voice Response (IVR). For example, if your user presses *4*, you return a [connect](#connect) NCCO that forwards the call to your sales department.
 
 The following NCCO example shows how to configure an IVR endpoint:
 
@@ -433,7 +433,7 @@ The following NCCO example shows how to use `bargeIn` to allow a user to interru
 ]
 ```
 
-You use the following options to control an `input` action:
+The following options can be used to control an `input` action:
 
 Option | Description | Required
 -- | -- | --
