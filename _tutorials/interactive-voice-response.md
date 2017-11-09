@@ -20,7 +20,7 @@ In this tutorial you build an interactive phone menu with different paths based 
 - [Route an inbound call](#route-an-inbound-call) - configure your webhook endpoint to handle incoming voice calls, find the phone number it is associated with and handle the call
 - [Send text-to-speech greeting](#text-to-speech) - Greet the user with text-to-speech upon answer
 - [Request user input via IVR](#request-user-input) - Create a text-to-speech prompt followed by requesting user input via IVR
-- [Receive user input webhook](#receive-user-input) - Handle the user order number input and play back status via text-to-speech
+- [Receive user input webhook](#receive-user-input-webhook) - Handle the user order number input and play back status via text-to-speech
 
 ## Prerequisites
 
