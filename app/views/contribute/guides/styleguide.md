@@ -38,6 +38,12 @@ This is a [link](http://google.com) to Google.
 
 > **Note**: You can use a `>` to specify a blockquote. We use these for tips like this.
 
+**Labels**
+
+You can have [labels].
+
+They auto-magically color when you use verbs like [POST] or [DELETE]
+
 **Tooltips (custom plugin)**
 
 Find out ^[more](Tooltips are useful for when you have more information to convey, but don't want to break context.).
@@ -214,7 +220,56 @@ If you are adding support for a changed header this would normally go above the 
 # Sending an SMS
 ````
 
-
 ### Example
 
 [Go to the anchor](#anchor-example). I've placed at the top of this document.
+
+## Screenshots
+
+Webpage screenshots can be scripted so that they only require sourcing once. Define a screenshot as such:
+
+````
+```screenshot
+script: app/screenshots/webhook-url-for-delivery-receipt.js
+```
+````
+
+Run the following command:
+
+```
+$ rake screenshots:new
+```
+
+This changes the original source document to add an `image` value pointing to the screenshot:
+
+````
+```screenshot
+script: app/screenshots/webhook-url-for-delivery-receipt.js
+image: public/assets/screenshots/da5f952d465355c19eb888fa1049844b31e090c2.png
+```
+````
+
+You can also update all examples by running the following command:
+
+```
+$ rake screenshots:all
+```
+
+Here is the example of the final rendered output:
+
+```screenshot
+script: app/screenshots/webhook-url-for-delivery-receipt.js
+image: public/assets/screenshots/da5f952d465355c19eb888fa1049844b31e090c2.png
+```
+
+## Audio (custom plugin)
+
+The HTML `<audio>` element can be utilised in Markdown with the following syntax:
+
+````
+🔈[https://developer.nexmo.com.s3.amazonaws.com/assets/ssml/06-phonemes.mp3]
+````
+
+This produces the following output:
+
+🔈[https://developer.nexmo.com.s3.amazonaws.com/assets/ssml/06-phonemes.mp3]
